@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ADB Relay</string>
+    <string name="activity_main_title">ADB Relay</string>
+    <string name="relay_url_hint">Relay URL (ws or wss)</string>
+    <string name="session_token_hint">Session token</string>
+    <string name="adbd_section_title">Wireless debugging</string>
+    <string name="adbd_guide_steps">1) Turn on Wireless debugging (tap Open Developer options, then open Wireless debugging).\n2) Enter Host and Port below from that screen (often %1$s and the debug port shown).\n3) Paste relay URL and session token above, then Connect.</string>
+    <string name="adbd_address_title">Wireless debugging address</string>
+    <string name="adbd_host_hint">Host</string>
+    <string name="adbd_port_hint">Port</string>
+    <string name="adbd_open_wireless_settings">Open Developer options</string>
+    <string name="error_open_wireless_settings">Could not open Developer options</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_standby_title">Not connected</string>
+    <string name="status_standby_subtitle">Standby.</string>
+    <string name="status_connecting_title">Connecting…</string>
+    <string name="status_connecting_subtitle">Opening relay.</string>
+    <string name="status_disconnecting_title">Disconnecting…</string>
+    <string name="status_disconnecting_subtitle">Stopping tunnel.</string>
+    <string name="status_connected_title">Tunnel active</string>
+    <string name="status_connected_subtitle">Active.</string>
+    <string name="status_connected_pc_hint">On your PC: start the IDE bridge, run adb connect 127.0.0.1:PORT (PORT from the panel), then pick that entry in Choose device — not this phone’s serial.</string>
+    <string name="status_problem_title">Disconnected</string>
+    <string name="status_problem_subtitle_prefix">Issue:</string>
+    <string name="notification_permission_denied">Notifications off — no tunnel status in shade.</string>
+    <string name="notification_channel">ADB Relay tunnel</string>
+    <string name="notification_title">ADB Relay active</string>
+    <string name="notification_text">Relaying to local adbd</string>
+    <string name="notification_reconnecting">Reconnecting (attempt %1$d)…</string>
+    <string name="tunnel_relay_reconnecting">Relay connection lost. Retrying…</string>
+    <string name="error_relay_required">Enter relay URL</string>
+    <string name="error_relay_invalid">Use a valid ws:// or wss:// URL</string>
+    <string name="error_token_required">Enter session token</string>
+    <string name="error_adbd_host_required">Enter host</string>
+    <string name="error_adbd_port_required">Enter port</string>
+    <string name="error_port_invalid">Port must be 1–65535</string>
+    <string name="error_connect_fix_fields">Fix the highlighted fields.</string>
+    <string name="error_service_missing_required">Relay URL and token required.</string>
+    <string name="error_ws_tls_mismatch_plain_relay">Unable to parse TLS packet header — relay likely has no TLS. Use ws:// instead of wss://.</string>
+    <string name="error_ws_cleartext_blocked">Cleartext blocked — use wss:// or allow cleartext for this host.</string>
+    <string name="error_adbd_connect">adbd %1$s:%2$d — %3$s. Match Wireless debugging port (after “:”), not 5555 unless shown.</string>
+</resources>

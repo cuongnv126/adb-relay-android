@@ -1,0 +1,13 @@
+/.gradle/
+/build/
+**/build/
+/.idea/
+*.iml
+local.properties
+.DS_Store
+captures/
+*.apk
+!/apk/adb-relay.apk
+*.ap_
+*.aab
+.cursor/

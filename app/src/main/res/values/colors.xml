@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#073042</color>
+
+    <!-- M3-style palette (static fallback; API 31+ can use dynamic overlay) -->
+    <color name="md_theme_primary">#006A6A</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#6FF7F2</color>
+    <color name="md_theme_onPrimaryContainer">#002020</color>
+    <color name="md_theme_surface">#F4FBFA</color>
+    <color name="md_theme_onSurface">#161D1D</color>
+    <color name="md_theme_surfaceContainerHigh">#D8E5E4</color>
+    <color name="md_theme_background">#F4FBFA</color>
+    <color name="md_theme_onBackground">#161D1D</color>
+    <color name="md_theme_outline">#6F7979</color>
+</resources>

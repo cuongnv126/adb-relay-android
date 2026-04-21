@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_horizontal_padding">20dp</dimen>
+    <dimen name="card_inner_padding">16dp</dimen>
+    <dimen name="card_corner">16dp</dimen>
+    <dimen name="status_icon_inner">28dp</dimen>
+    <dimen name="hairline">1dp</dimen>
+</resources>
